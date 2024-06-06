@@ -9,7 +9,7 @@ require('dotenv').config();
 require('./config/db');
 
 // Crear server HTTP
-const server = http.createServer((req, res) => res.end('Server HTTP'));
+const server = http.createServer((req, res) => res.end('¡¡Server HTTP!!'));
 
 const PORT = process.env.PORT || 3000;
 server.listen(PORT);
